@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "n_questions": 3,
+    "baseline": {
+      "recall_at_n": 0,
+      "precision_at_n": 0.0,
+      "mrr": 0.0
+    },
+    "reranked": {
+      "recall_at_n": 0,
+      "precision_at_n": 0.0,
+      "mrr": 0.0
+    },
+    "avg_latency_sec": {
+      "vector_search": 1.0409,
+      "reranking": 0.4524
+    }
+  },
+  "per_question": [
+    {
+      "question": "What is the refund policy described in the document?",
+      "expected_source": "policy.pdf",
+      "baseline": {
+        "recall_at_n": 0,
+        "precision_at_n": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall_at_n": 0,
+        "precision_at_n": 0.0,
+        "mrr": 0.0
+      },
+      "latency_sec": {
+        "vector_search": 3.0328,
+        "reranking": 0.6225
+      }
+    },
+    {
+      "question": "What was the total revenue in Q3?",
+      "expected_source": "financials.csv",
+      "baseline": {
+        "recall_at_n": 0,
+        "precision_at_n": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall_at_n": 0,
+        "precision_at_n": 0.0,
+        "mrr": 0.0
+      },
+      "latency_sec": {
+        "vector_search": 0.0499,
+        "reranking": 0.4419
+      }
+    },
+    {
+      "question": "Who is responsible for approving vendor contracts?",
+      "expected_source": "handbook.docx",
+      "baseline": {
+        "recall_at_n": 0,
+        "precision_at_n": 0.0,
+        "mrr": 0.0
+      },
+      "reranked": {
+        "recall_at_n": 0,
+        "precision_at_n": 0.0,
+        "mrr": 0.0
+      },
+      "latency_sec": {
+        "vector_search": 0.0399,
+        "reranking": 0.2929
+      }
+    }
+  ]
+}

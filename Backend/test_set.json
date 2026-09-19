@@ -1,0 +1,17 @@
+{
+  "_instructions": "Replace these with real questions about YOUR indexed documents. 'expected_source' must exactly match the filename you uploaded (as stored in Chroma metadata). Add 10-20 entries for a meaningful sample size. Delete this _instructions key before running.",
+  "questions": [
+    {
+      "question": "What is the refund policy described in the document?",
+      "expected_source": "policy.pdf"
+    },
+    {
+      "question": "What was the total revenue in Q3?",
+      "expected_source": "financials.csv"
+    },
+    {
+      "question": "Who is responsible for approving vendor contracts?",
+      "expected_source": "handbook.docx"
+    }
+  ]
+}
